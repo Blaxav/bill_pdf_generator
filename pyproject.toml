@@ -1,0 +1,13 @@
+[project]
+name = "gen-facture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docx2pdf>=0.1.8",
+    "pdfrw>=0.4",
+    "pydantic>=2.11.4",
+    "python-docx>=1.1.2",
+    "reportlab>=4.4.0",
+]
